@@ -3,11 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator app</title>
+    <title>windows like calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
 </head>
 <body>
-    
+   <div class="main"></div>
+<input type="text" id = 'num'>
+<div class="btn"></div>
+<input type="button" value="C" onclick="Clear()">
+<input type="button" value="%" onclick="Solve('%')">
+<input type="button" value="←" onclick="Back('←')">
+<input type="button" value="/" onclick="Solve('/')">
+<br>
+
+
+
+    <script src="main.js"></script>
 </body>
 </html>
