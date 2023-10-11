@@ -1,20 +1,17 @@
-function Solve(val){
-    let var1 = document.getElementById("num")
-    var1.value += val
+function solve(){
+    let val = document.getElementById('num')
+    val.value += val
 }
-
-function Result(){
-    let num1 = document.getElementById("num").value
-    let num2 = eval(num1)
-    document.getElementById("num").value = num2
+function clear(){
+    let num1 = document.getElementById('num').value
+    let num2 = Function(num1)
+    document.getElementById('num').value = num2
 }
-
-function Clear(){
-    let input = document.getElementById("num")
-    input.value = ""
-}
-
-function Back(){
-    let evaluation = document.getElementById("num")
-    evaluation.value = evaluation.value.slice(0,-1)
-}
+function Clear() {
+    var inp = document.getElementById('num');
+    inp.value = '';
+ }
+ function Back() {
+    var ev = document.getElementById('num');
+    ev.value = ev.value.slice(0,-1);
+ }
