@@ -1,4 +1,4 @@
-@import url("'https://fonts.googleapis.com/css2?family=Poppins&display=swap'");
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     background: #e0e3eb;
+    background-image: url('https://content.kaspersky-labs.com/lp/press-releases/2022/Big%20Floppa.jpg');
 }
 .container{
     position: relative;
