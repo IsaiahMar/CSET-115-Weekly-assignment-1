@@ -1,10 +1,10 @@
-function solve(){
+function solve(val){
     let val = document.getElementById('num')
-    val.value += val
+    v.value += val
 }
 function clear(){
     let num1 = document.getElementById('num').value
-    let num2 = Function(num1)
+    let num2 = eval(num1)
     document.getElementById('num').value = num2
 }
 function Clear() {
