@@ -1,0 +1,112 @@
+
+@import url("'https://fonts.googleapis.com/css2?family=Poppins&display=swap'");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e3eb;
+}
+.container{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20p;
+    background: white;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.05);
+}
+.display{
+    height: 80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #000e1a;
+    pointer-events: none;
+}
+.buttons{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+.buttons button:active{
+    transform: scale(0.99);
+}
+.operator{
+    color: lightblue;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background-color: #495250;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+.main{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 6px;
+}
+
+.main input[type="text"]{
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    border: 5px solid black;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color: black;
+}
+
+.btn input[type="button"]{
+    width: 90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #495250;
+    border-radius: 6px;
+    color: white;
+}
+
+.btn input[type="button"]:hover{
+    background-color: black;
+    color: white;
+}
